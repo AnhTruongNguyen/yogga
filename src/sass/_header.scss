@@ -85,6 +85,7 @@
         }      
     }
 }
+
 @media screen and (max-width: 1279.98px) {
     .header__container {
         margin-left: -16px;
@@ -94,6 +95,7 @@
 
 @media screen and (max-width: 1023.98px) {
     .header {
+        
         &__menu {
             display: none;
         }
