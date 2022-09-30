@@ -34,3 +34,19 @@
         }
     }
 }
+
+@media screen and (max-width: 1023.98px) {
+    .footer {
+        gap: 0 112px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .footer {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 50px 50px;
+        padding-bottom: 0;
+    }
+}
+
