@@ -6,7 +6,7 @@
         }
     }
     &__container {
-        margin-left: -126px;
+       
         z-index: 2;
         padding: 35px 16px 40px 16px;
         color: #fff;
@@ -86,11 +86,6 @@
     }
 }
 
-@media screen and (max-width: 1279.98px) {
-    .header__container {
-        margin-left: -16px;
-    }
-}
 
 
 @media screen and (max-width: 1023.98px) {
