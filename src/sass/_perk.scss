@@ -1,0 +1,28 @@
+.perk {
+    padding-bottom: 150px;
+    &__title {
+        text-align: center;
+        color: $mainColor; 
+        padding-bottom: 60px;
+    }
+    &__list {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0 83px;
+    }
+
+    &__item {
+        h3 {
+            color: $mainColor;
+            padding-top: 22px;
+            padding-bottom: 16px;
+        }
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: calc(28/16);
+            color: #79838C;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.relax {
+    padding-top: 79px;
+    display: flex;
+    gap: 0 135px;
+    align-items: center;
+    padding-bottom: 150px;
+    &__title {
+        h2 {
+            color: $mainColor;
+            padding-bottom: 54px;
+           
+        }
+    }
+    &__item {
+        display: flex;
+        align-items:baseline;
+        gap: 0 20px;
+       
+        h3 {
+            color: $mainColor;
+            padding-bottom: 6px;
+        }
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: calc(28/16);
+        }
+    }
+    &__item:nth-child(3) {
+        padding: 61px 0;
+    }
+}

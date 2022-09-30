@@ -1,0 +1,80 @@
+.header {
+    &__logo {
+        a {
+            color: #fff;
+        }
+    }
+    &__container {
+        padding: 35px 0 40px 0;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        gap: 0 42px;
+        align-items: center;
+        a {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: calc(32/20);
+            &:hover {
+                font-weight: 600;
+            }
+
+        }
+    }
+    &__button {
+        list-style-type: none;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: calc(32/20);
+        padding: 15px 32px;
+        background-color: $buttonColor;
+        border-radius: 20px;
+        a {
+            color: #fff;                  
+        }       
+    }
+    &__content{
+        align-items: center;
+        display: flex;
+        gap: 0 18px;
+        padding-bottom: 100px;
+    }
+    &__text {
+        width: 48.7%;
+        p {
+            padding-top: 30px;
+            padding-bottom: 45px;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: calc(32/20);
+            color: #EDEDED;
+        }
+    }
+    &__join {
+        display: flex;
+        gap: 0 30px;     
+        font-size: 18px;
+        font-weight: 600;
+        line-height: calc(30/18);
+        .join {
+            padding: 14px 33px;
+            color: #fff;
+            background-color: $buttonColor;
+            border: none;
+            border-radius: 20px;
+        }
+        .learn {
+            color: $buttonColor;
+            background: none;
+            padding: 14px 28px;
+            border: 1px solid #FF652E;           
+            border-radius: 20px;
+        }      
+    }
+}

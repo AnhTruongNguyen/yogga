@@ -1,0 +1,33 @@
+.infor {
+    justify-content: space-between;
+    padding: 39px 55px;
+    display: flex;
+    background-color: #fff;
+    position: relative;
+    top: -71px;
+    box-shadow: 0 5px 8px #888888b9;
+    &__item {
+        display: flex;
+        gap: 0 10px;
+        align-items: baseline;
+        h3 {
+            padding-bottom: 3px;
+            color: $mainColor;
+        }
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: calc(28/16);
+        }  
+    }
+    &__button {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: calc(28/18);
+        padding: 14px 34px;
+        border-radius: 12px;
+        background-color: $mainColor;
+        color: #fff;
+        border: none;
+    }
+}

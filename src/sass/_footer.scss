@@ -1,0 +1,36 @@
+.footer {
+    padding-top: 91px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 0 121px;
+    padding-bottom: 53px;
+    &__slogan {
+        h3 {
+            color: $mainColor;
+            padding-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: calc(30/18);
+            color: #79838C;
+        }
+        .list-icon {
+            padding-top: 25px;
+            display: flex;
+            gap: 0 8px;
+        }
+    }
+    &__item {
+        h4 {
+            padding-bottom: 20px;
+        }
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: calc(28/16);
+            padding-bottom: 12px;
+            color: #79838C;
+        }
+    }
+}

@@ -1,0 +1,103 @@
+.card {
+    padding-bottom: 65px;
+    &__title {
+        color: #fff;
+        text-align: center;
+        padding-top: 65px;
+        padding-bottom: 60px;
+    }
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 30px;
+    }
+    &__content {
+        padding: 23px 24px 28px 20px;
+    }
+    &__item:first-child {
+        background: url(../img/card/1.png) no-repeat;
+    }
+    &__item:nth-child(2){
+        background: url(../img/card/2.png) no-repeat;
+    }
+    &__item:nth-child(3){
+        background: url(../img/card/3.png) no-repeat;
+    }
+    &__item:nth-child(4){
+        background: url(../img/card/4.png) no-repeat;
+    }
+    &__item:nth-child(5){
+        background: url(../img/card/5.png) no-repeat;
+    }
+    &__item:last-child{
+        background: url(../img/card/6.png) no-repeat;
+    }
+    &__infor {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 301px;
+        align-items: center;
+    }
+    &__name {
+        display: flex;
+        gap: 0 9px;
+        span {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: calc(28/16);
+            color: #fff;
+        }
+    }
+    &__begin {
+        h3 {
+            color: #fff;
+        }
+    }
+    &__dot {
+        display: flex;
+        gap: 0 9px;
+        span {
+            color: #fff;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: calc(26/16);
+        }       
+    }
+    &__container {
+        top: 262px;
+        position: relative;
+        background-color: #fff;
+        padding: 0 25px 25px 25px;
+        border-radius: 15px;
+        .avatar {
+            position: relative;
+            top: -25px;
+        }
+        h3 {
+            color: $mainColor;
+            padding-bottom: 35px;
+        }
+    }
+    &__begintwo {
+        padding-bottom: 8px;
+        display: flex;
+        gap: 0 9px;
+        span {
+            color: $buttonColor;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: calc(26/16);
+        }
+    }
+    &__time {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__min {
+        display: flex;
+        gap: 0 8px;
+        align-items: center;
+    }  
+}

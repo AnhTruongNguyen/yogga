@@ -1,0 +1,51 @@
+.comment {
+    padding-bottom: 150px;
+    display: flex;
+    gap: 0 61px;
+    &__text {
+        overflow: auto;
+        h2 {
+            width: 69%;
+            color: $mainColor;
+        }
+        .slide-comment {
+            padding-top: 30px;
+            .slide-item {
+                p {
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: calc(30/18);
+                    color: #79838C;
+                    padding-bottom: 26px;
+                }
+                h3 {
+                    color: $mainColor;
+                    padding-bottom: 3px;
+                }
+                span {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: calc(28/16);
+                    color: #79838C;
+                }
+            }
+        }
+    }
+    // slick slider 
+    .slick-arrow{
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        position: relative;
+        border: none;
+    }
+    .slick-prev {           
+        top: 241px;
+        left: 522px;        
+    }
+    .slick-next {      
+        left: 560px;      
+    }
+}

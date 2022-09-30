@@ -1,0 +1,43 @@
+body {
+    font-family: $font;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 600;
+}
+h1 {
+    color: #fff;
+    font-size: 60px;
+    line-height: calc(70/60);
+}
+h2 {
+    font-size: 44px;
+    line-height: calc(54/44);
+}
+h3 {
+    font-size: 24px;
+    line-height: calc(34/24);
+}
+h4 {
+    font-size: 20px;
+    line-height: calc(32/20);
+    color: $mainColor;
+}
+
+.background {
+    background-color: $mainColor;
+
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+   
+}
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
