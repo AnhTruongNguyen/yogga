@@ -29,6 +29,7 @@
 }
 @media screen and (max-width: 1023.98px) {
     .header__menu {
+        border-radius: 10px;
         position: fixed;
         padding-top: 80px;
         background-color: $mainColor;
@@ -48,6 +49,7 @@
         }
         .header__button {
             display: inline-block;
+            margin-bottom: 30px;
         }
         .menu-item {
             display: block;
@@ -57,7 +59,7 @@
     }
     .header__container > .header__button {
         display: none;
-        margin-bottom: 30px;
+       
     }
     .menu__toggle {
         display: inline-flex;

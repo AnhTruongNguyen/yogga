@@ -266,6 +266,7 @@ h4 {
 
 @media screen and (max-width: 1023.98px) {
   .header__menu {
+    border-radius: 10px;
     position: fixed;
     padding-top: 80px;
     background-color: #155261;
@@ -286,6 +287,7 @@ h4 {
   }
   .header__menu .header__button {
     display: inline-block;
+    margin-bottom: 30px;
   }
   .header__menu .menu-item {
     display: block;
@@ -294,7 +296,6 @@ h4 {
   }
   .header__container > .header__button {
     display: none;
-    margin-bottom: 30px;
   }
   .menu__toggle {
     display: inline-flex;
