@@ -5,8 +5,7 @@
             color: #fff;
         }
     }
-    &__container {
-       
+    &__container {     
         z-index: 2;
         padding: 35px 16px 40px 16px;
         color: #fff;
@@ -17,22 +16,7 @@
         width: 100%;
         background-color: $mainColor;
     }
-    &__menu {
-        display: flex;
-        justify-content: space-between;
-        gap: 0 42px;
-        align-items: center;
-        a {
-            color: #fff;
-            font-size: 20px;
-            font-weight: 400;
-            line-height: calc(32/20);
-            &:hover {
-                font-weight: 600;
-            }
 
-        }
-    }
     &__button {
         list-style-type: none;
         font-size: 20px;
@@ -90,10 +74,12 @@
 
 @media screen and (max-width: 1023.98px) {
     .header {
-        
-        &__menu {
-            display: none;
+
+        &__container {
+            padding: 0 16px
         }
+        
+       
         &__button {
             padding: 10px 20px;
         }

@@ -6,3 +6,18 @@ $('.slide-comment').slick({
     prevArrow:`<button type='button' class='slick-prev pull-left'><img src="/src/img/comment/arrow_left.png" ></button>`,
     nextArrow:`<button type='button' class='slick-next pull-right'><img src="/src/img/comment/arrow_right.png" ></button>`,
 });
+
+const toggle = document.querySelector(".menu__toggle");
+const menu = document.querySelector(".header__menu");
+const activeClass = "is-show";
+toggle.addEventListener("click", function(){
+    menu.classList.add(activeClass);
+});
+window.addEventListener('click', function(e){   
+    if (!menu.contains(e.target) && !e.target.matches(".menu__toggle")){
+        menu.classList.remove(activeClass);
+    } 
+});
+
+
+
