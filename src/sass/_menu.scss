@@ -36,9 +36,9 @@
         top: 0;
         bottom: 0;
         width: 40%;
+        height: 70%;
         z-index: 30;     
-        flex-direction: column;
-        
+        flex-direction: column;       
         gap: 10px 0;
         transform: translateX(100%);
         will-change: transform;
@@ -52,11 +52,12 @@
         .menu-item {
             display: block;
             width: 100%;
-            padding: 30px 30px;
+            padding: 0 30px;
         }   
     }
     .header__container > .header__button {
         display: none;
+        margin-bottom: 30px;
     }
     .menu__toggle {
         display: inline-flex;
