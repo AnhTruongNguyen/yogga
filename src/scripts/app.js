@@ -10,12 +10,20 @@ $('.slide-comment').slick({
 const toggle = document.querySelector(".menu__toggle");
 const menu = document.querySelector(".header__menu");
 const activeClass = "is-show";
+const openClass = "open";
+
 toggle.addEventListener("click", function(){
-    menu.classList.add(activeClass);
+    menu.classList.toggle('is-show');
+    toggle.classList.toggle('open');
 });
+
+
+
 window.addEventListener('click', function(e){   
     if (!menu.contains(e.target) && !e.target.matches(".menu__toggle")){
         menu.classList.remove(activeClass);
+        toggle.classList.remove(openClass);
+
     } 
 });
 
