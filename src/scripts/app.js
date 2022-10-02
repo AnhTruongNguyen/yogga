@@ -9,14 +9,16 @@ $('.slide-comment').slick({
 
 const toggle = document.querySelector(".menu__toggle");
 const menu = document.querySelector(".header__menu");
+const isShow = "is-show";
+const oPen = "open"
 toggle.addEventListener("click", function(){
     menu.classList.toggle('is-show');
     toggle.classList.toggle('open');
 });
 window.addEventListener('click', function(e){   
     if (!menu.contains(e.target) && !e.target.matches(".menu__toggle")){
-        menu.classList.toggle('is-show');
-        toggle.classList.toggle('open');
+        menu.classList.remove(isShow);
+        toggle.classList.remove(oPen);
     } 
 });
 
