@@ -10,15 +10,15 @@ $('.slide-comment').slick({
 const toggle = document.querySelector(".menu__toggle");
 const menu = document.querySelector(".header__menu");
 const isShow = "is-show";
-const oPen = "open"
+const classOpen = "open";
 toggle.addEventListener("click", function(){
-    menu.classList.toggle('is-show');
-    toggle.classList.toggle('open');
+    menu.classList.toggle(isShow);
+    toggle.classList.toggle(classOpen);
 });
 window.addEventListener('click', function(e){   
     if (!menu.contains(e.target) && !e.target.matches(".menu__toggle")){
         menu.classList.remove(isShow);
-        toggle.classList.remove(oPen);
+        toggle.classList.remove(classOpen);
     } 
 });
 
