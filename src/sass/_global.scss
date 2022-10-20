@@ -41,3 +41,8 @@ h4 {
     margin: 0 auto;
     max-width: 1200px;
 }
+@media print, (min-width: 800.04px){
+    .wrapper {
+        min-width: 1200px;
+    }    
+}

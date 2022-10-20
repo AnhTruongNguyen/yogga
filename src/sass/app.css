@@ -70,8 +70,6 @@ html[xmlns] .clearfix {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -132,11 +130,6 @@ h4 {
   max-width: 1200px;
 }
 
-@media print, (min-width: 800.04px) {
-  .wrapper {
-    min-width: 1200px;
-  }
-}
 .header__logo a {
   color: #fff;
 }
@@ -149,7 +142,6 @@ h4 {
   align-items: center;
   position: fixed;
   max-width: 1440px;
-  width: 100%;
   background-color: #155261;
 }
 .header__button {
@@ -172,7 +164,7 @@ h4 {
   padding-bottom: 100px;
 }
 .header__text {
-  width: 557px;
+  width: 48.7%;
 }
 .header__text p {
   padding-top: 30px;
@@ -924,6 +916,4 @@ h4 {
     gap: 50px 50px;
     padding-bottom: 0;
   }
-}
-
-/*# sourceMappingURL=app.css.map */
+}/*# sourceMappingURL=app.css.map */
