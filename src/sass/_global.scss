@@ -32,17 +32,17 @@ h4 {
 }
 
 .wrapper {
-    max-width: 1440px;
     margin: 0 auto;
+    min-width: 1200px;
    
 }
 .container {
     padding: 0 15px;
     margin: 0 auto;
-    max-width: 1200px;
+    width: 1200px;
 }
-@media print, (min-width: 800.04px){
-    .wrapper {
-        min-width: 1200px;
-    }    
-}
+// @media print, (min-width: 800.04px){
+//     .wrapper {
+//         min-width: 1200px;
+//     }    
+// }
