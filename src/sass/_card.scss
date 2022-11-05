@@ -105,20 +105,23 @@
     }  
 }
 
-@media screen and (max-width: 1279.98px) {
-    .card {
-        &__container {
-            top: 227px;
-            h3 {
-                width: 95%;
-            }
-        }
+// @media screen and (max-width: 1279.98px) {
+//     .card {
+//         &__container {
+//             top: 227px;
+//             h3 {
+//                 width: 95%;
+//             }
+//         }
         
-    }
-}
+//     }
+// }
 
 @media screen and (max-width: 1023.98px) {
     .card {
+        &__container {
+            top: 230px;
+        }
         &__content {
             padding: 23px 24px 0 20px;
         }
@@ -136,10 +139,6 @@
         }
         &__infor {
             padding-bottom: 329px;
-        }
-
-        &__container {
-            top: 261px;
         }
 
         &__item {
