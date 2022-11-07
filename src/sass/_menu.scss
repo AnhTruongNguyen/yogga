@@ -16,6 +16,34 @@
         }
     }
 }
+.menu__toggle {
+    z-index: 20;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    position: relative;
+    cursor: pointer;
+}
+.menu__toggle::before {
+    content: "";
+    width: 28px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    transform: translateY(-6px);
+    transition: all 0.2s linear;
+}
+.menu__toggle::after {
+    content: "";
+    width: 28px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    transform: translateY(6px);
+    transition: all 0.2s linear;
+}
 
 .menu__toggle.open::before {
     transform: rotate(45deg);

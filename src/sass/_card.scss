@@ -133,9 +133,14 @@
 
 @media screen and (max-width: 767.98px) {
     .card {
+        &__container {
+            top: 262px;
+        }
+            
         &__list {
-            grid-template-rows: repeat(6, 1fr);
-            grid-template-columns: 1fr;
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-columns: 1fr 1fr;
+            gap: 70px 0;
         }
         &__infor {
             padding-bottom: 329px;
@@ -143,7 +148,7 @@
 
         &__item {
             background: center;
-            padding: 0 7px;
+            padding: 0 106px;
         }
     }
 }
